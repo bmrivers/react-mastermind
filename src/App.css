@@ -1,5 +1,6 @@
 .App {
   text-align: center;
+  width: 100vw;
 }
 
 .App-header {
@@ -10,3 +11,40 @@
   font-size: 40px;
   text-align: center;
 }
+
+.game-board {
+  display: flex;
+  flex-direction: column-reverse;
+  width: 80vw;
+
+}
+
+.sidebar {
+  display: flex;
+  flex-direction: column;
+}
+
+.guess-row {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  min-width: 625px;
+}
+
+.guess-pegs {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  width: 70%;
+}
+
+.guess-peg {
+  width: 20%;
+  display: block;
+}
+
+.main {
+  width: 100vw;
+}
+

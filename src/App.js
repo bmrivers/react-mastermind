@@ -11,10 +11,14 @@ class App extends React.Component {
     return (
       <div className="App">
         <header className="App-header">React Mastermind</header>
-        <GameBoard />
-        <ColorPicker />
-        <GameTimer />
-        <NewGameButton />
+        <div className="main">
+          <GameBoard />
+          <div className="sidebar">
+            <ColorPicker />
+            <GameTimer />
+            <NewGameButton />
+          </div>
+        </div>
         <footer className="component">footer</footer>
       </div>
     );
